@@ -1,0 +1,123 @@
+{
+  "технологии": [
+    {
+      "url": "https://3dnews.ru/news/rss/",
+      "name": "3DNews",
+      "enabled": true
+    },
+    {
+      "url": "https://www.opennet.ru/opennews/opennews_all_utf.rss",
+      "name": "OpenNet",
+      "enabled": true
+    },
+    {
+      "url": "https://vc.ru/rss",
+      "name": "VC.ru",
+      "enabled": true
+    },
+    {
+      "url": "https://dtf.ru/rss",
+      "name": "DTF",
+      "enabled": true
+    }
+  ],
+  "кино и сериалы": [
+    {
+      "url": "https://www.kinonews.ru/rss/",
+      "name": "КиноНовости",
+      "enabled": true
+    },
+    {
+      "url": "https://www.film.ru/rss.xml",
+      "name": "Film.ru",
+      "enabled": true
+    }
+  ],
+  "спорт": [
+    {
+      "url": "https://www.sports.ru/rss/all_news.xml",
+      "name": "Sports.ru",
+      "enabled": true
+    }
+  ],
+  "наука": [
+    {
+      "url": "https://nplus1.ru/rss",
+      "name": "N+1",
+      "enabled": true
+    },
+    {
+      "url": "https://scientificrussia.ru/rss",
+      "name": "Научная Россия",
+      "enabled": true
+    }
+  ],
+  "финансы": [
+    {
+      "url": "https://rssexport.rbc.ru/rbcnews/news.rss",
+      "name": "РБК Новости",
+      "enabled": true
+    },
+    {
+      "url": "https://rssexport.rbc.ru/rbcnews/economics.rss",
+      "name": "РБК Экономика",
+      "enabled": true
+    },
+    {
+      "url": "https://rssexport.rbc.ru/rbcnews/technology_and_media.rss",
+      "name": "РБК Технологии",
+      "enabled": true
+    },
+    {
+      "url": "https://rssexport.rbc.ru/rbcnews/business.rss",
+      "name": "РБК Бизнес",
+      "enabled": true
+    }
+  ],
+  "авто": [
+    {
+      "url": "https://www.kolesa.ru/rss",
+      "name": "Колёса.ру",
+      "enabled": true
+    },
+    {
+      "url": "https://www.gazeta.ru/export/rss/auto.xml",
+      "name": "Газета.Ru Авто",
+      "enabled": true
+    }
+  ],
+  "общество": [
+    {
+      "url": "https://lenta.ru/rss",
+      "name": "Lenta.ru",
+      "enabled": true
+    },
+    {
+      "url": "https://lenta.ru/rss/news",
+      "name": "Lenta.ru Новости",
+      "enabled": true
+    },
+    {
+      "url": "https://tass.ru/rss/v2.xml",
+      "name": "ТАСС",
+      "enabled": true
+    },
+    {
+      "url": "https://iz.ru/rss",
+      "name": "Известия",
+      "enabled": true
+    },
+    {
+      "url": "https://www.gazeta.ru/export/rss/first.xml",
+      "name": "Газета.Ru",
+      "enabled": true
+    }
+  ],
+  "юмор и развлечения": [
+    {
+      "url": "https://www.factroom.ru/rss/",
+      "name": "Фактрум",
+      "enabled": true
+    }
+  ]
+}

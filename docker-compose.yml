@@ -1,0 +1,17 @@
+services:
+  news-manager:
+    build: .
+    container_name: xiaozhi-news-manager
+    ports:
+      - "5000:5000"   # Веб-интерфейс Flask
+      - "8000:8000"   # MCP-сервер (SSE)
+    volumes:
+      # feeds.json и config.json сохраняются между перезапусками
+      - ./data:/app/data
+      # Заметки (отдельные .md файлы)
+      - ./notes:/app/notes
+    environment:
+      - DOCKER=true
+    restart: unless-stopped
+    # В контейнере нет GUI, поэтому трей отключён (app.py --no-tray)
+    # MCP-сервер доступен по адресу http://localhost:8000/sse

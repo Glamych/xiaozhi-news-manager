@@ -1,0 +1,19 @@
+{
+  "notes_dir": "notes",
+  "theme": "dark",
+  "feeds_file": "feeds.json",
+  "web_port": 5000,
+  "mcp_port": 8001,
+  "cache_ttl": 600,
+  "news_depth": 10,
+  "news_count": 7,
+  "auto_refresh": true,
+  "refresh_interval": 600,
+  "summary_max": 800,
+  "digest_summary_max": 300,
+  "details_summary_max": 800,
+  "full_article_max": 4000,
+  "use_full_content": true,
+  "xiaozhi_endpoint": "wss://api.xiaozhi.me/mcp/?token=YOUR_TOKEN_HERE",
+  "adapter_dir": "../xiaozhi_mcp_adapter"
+}

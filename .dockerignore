@@ -1,0 +1,37 @@
+# Виртуальные окружения (если кто-то собрал локально)
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Логи и рабочие файлы
+app.log
+*.log
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Документация и скрипты сборки
+README.md
+*.bat
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+# Локальные данные, которые не должны попасть в образ
+data/
+notes/
+static/icon.png
+config.json
+feeds.json

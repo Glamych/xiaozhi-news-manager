@@ -1,0 +1,19 @@
+# Секреты и локальные настройки (содержат токен endpoint)
+config.json
+
+# Логи
+*.log
+
+# Кэш и локальные маркеры
+__pycache__/
+*.pyc
+.installed
+.xiaozhi_installed
+
+# Приватные заметки
+notes/*
+!notes/.gitkeep
+
+# Системное
+.DS_Store
+Thumbs.db

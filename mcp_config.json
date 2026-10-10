@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "xiaozhi-news": {
+      "type": "sse",
+      "url": "http://localhost:8001/sse",
+      "disabled": false
+    }
+  }
+}
+

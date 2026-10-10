@@ -1,0 +1,20 @@
+# XiaoZhi News Manager — зависимости
+# Основной стек
+pystray>=0.19.5
+Pillow>=10.0.0
+feedparser>=6.0.10
+Flask>=3.0.0
+mcp>=1.8.1
+
+# Опционально (нечёткий поиск заметок)
+rapidfuzz>=3.0.0
+
+# Для моста к XiaoZhi Cloud (start_xiaozhi.bat + mcp_pipe.py)
+# Официальный mcp_pipe.py от XiaoZhi: https://github.com/78/mcp-calculator
+websockets>=11.0.3
+python-dotenv>=1.0.0
+mcp-proxy>=0.8.2
+pydantic>=2.11.4
+
+# Windows-only: tkinter входит в стандартный CPython (python.org).
+# На Linux дополнительно: sudo apt-get install python3-tk
